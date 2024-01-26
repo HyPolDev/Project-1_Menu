@@ -1,27 +1,52 @@
-body{
+body {
     padding: 0;
     margin: 0;
-    height: 100vh;
-    width: 100vw;
+
     background-color: black;
 }
-#middle-col,#left-col,#right-col{
+div{
+    padding: 0%;
+}
+
+#middle-col,
+#left-col,
+#right-col {
     background-color: bisque;
     height: 100vh;
 }
-.col,.row{
+
+.col,
+.row {
     border: 2px solid black;
-   
+
 }
-#space-middle-col-top{
+
+#space-middle-col-top {
     height: 5em;
 }
-#name{
+
+#name {
     height: 8em;
 }
-#description{
+
+#description {
     height: 17em;
 }
-#buttons{
+
+#buttonsrow {
     height: 5em;
+}
+
+.buttonsbox {
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button-cuisine{
+    border-radius: 0%;
+}
+#button-reserve{
+    border-radius: 0%;
 }
