@@ -5,16 +5,23 @@ body{
     width: 100vw;
     background-color: black;
 }
-.middle-col,.left-col,.right-col{
-    
+#middle-col,#left-col,#right-col{
+    background-color: bisque;
     height: 100vh;
 }
 .col,.row{
     border: 2px solid black;
-    background-color: bisque;
+   
 }
-#named,#description{
-    
-    justify-content: center;
-    align-items: center;
+#space-middle-col-top{
+    height: 5em;
+}
+#name{
+    height: 8em;
+}
+#description{
+    height: 17em;
+}
+#buttons{
+    height: 5em;
 }
