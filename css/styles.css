@@ -56,15 +56,7 @@ div {
     margin-bottom: 1em
 }
 
-#button-cuisine {
-    border-radius: 0%;
-    width: 5em;
-}
 
-#button-reserve {
-    border-radius: 0%;
-    width: 5em;
-}
 #book-a-table {
     background-color: #FAFAFA;
     border-top: 1px solid #ddd;
@@ -77,14 +69,13 @@ div {
 	color: #9a9a9a;
 }
 
-#formSubmit{
+.try-center{
     display: flex;
     align-items: center;
     justify-content: center;
     
 }
-.button-submit{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+#form-spacer{
+    height: 2em;
 }
