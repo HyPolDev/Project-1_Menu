@@ -3,15 +3,24 @@ body {
     margin: 0;
     background-color: black;
 }
-div{
+
+div {
     padding: 0%;
+}
+
+::-webkit-scrollbar {
+    background: #e8f2ff;
+    width: 0;
+}
+::-webkit-scrollbar-thumb{
+    background: #212529;
 }
 
 #middle-col,
 #left-col,
 #right-col {
     background-color: bisque;
-    height: 100vh;
+    height: 45em;
 }
 
 .col,
@@ -44,10 +53,12 @@ div{
     margin-bottom: 1em
 }
 
-#button-cuisine{
+#button-cuisine {
     border-radius: 0%;
-;
+    width: 5em;
 }
-#button-reserve{
+
+#button-reserve {
     border-radius: 0%;
+    width: 5em;
 }
