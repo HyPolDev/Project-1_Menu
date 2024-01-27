@@ -79,3 +79,35 @@ div {
 #form-spacer{
     height: 2em;
 }
+.btn-hover {
+    cursor: pointer;
+    border: 2px solid #212529;
+    position: relative;
+    background-color: transparent;
+    display: table;
+}
+.btn-hover::before, .btn-hover::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 4px;
+    background-color: #fff;
+    transform: skewX(50deg);
+    transition: 0.5s cubic-bezier(0.75, 0.82, 0.165, 1);
+}
+.btn-hover::before {
+    top: -4px;
+    left: 10%;
+    background-color: #212529;
+}
+.btn-hover::after {
+    bottom: -4px;
+    right: 10%;
+    background-color: #212529;
+}
+.btn-hover:hover::before {
+    left: 75%;
+}
+.btn-hover:hover::after {
+    right: 75%;
+}
