@@ -9,7 +9,11 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -18,15 +22,63 @@
             <div class="col-3" id="left-col"></div>
             <div class="col-6" id="middle-col">
                 <div class="row" id="space-middle-col-top"></div>
-                <div class="row" >
+                <div class="row">
                     <p id="name">Le Meunier</p>
                 </div>
-                <div class="row" id="description"></div>
-                <div class="row" id="space-middle-col-top"></div>
-                <div class="row" id="buttonsrow">
-                    <div class="col buttonsbox"><a class="btn btn-primary " id="button-cuisine" href="cuisine.html" role="button">Cuisine</a></div>
-                    <div class="col buttonsbox"><a class="btn btn-primary " id="button-reserve"href="index.html" role="button">Meunier</a></div>
+                <div class="row" id="form">
+                    <div id="book-a-table" class="book-a-table">
+                        <div class="container" data-aos="fade-up">
+                            <form action="" method="post" role="form">
+                                <div class="form-row " id="formSubmit">
+                                    <div class="col-lg-4 col-md-6 form-group">
+                                        <input type="text" name="name" class="form-control" id="formName"
+                                            placeholder="Your Name">
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 form-group">
+                                        <input type="email" class="form-control" name="email" id="formEmail"
+                                            placeholder="Your Email">
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 form-group">
+                                        <input type="number" class="form-control" name="phone" id="formPhone"
+                                            placeholder="Your Phone">
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 form-group">
+                                        <input type="date" name="date" class="form-control" id="formDate"
+                                            placeholder="Date">
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 form-group">
+                                        <input type="time" class="form-control" name="time" id="formTime"
+                                            placeholder="Time">
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 form-group">
+                                        <input type="number" class="form-control" name="people" id="formPeople"
+                                            placeholder="No. of people">
+                                    </div>
+                                    
+                                    <div class="col-lg-4 col-md-6 form-group ">
+                                        <button type="submit" class="btn btn-primary float-right mt-3" id="button-submit">Ask for
+                                            availability
+                                        </button>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 form-group ">
+                                        <button type="submit" class="btn btn-primary float-right mt-3">
+                                            <a class="btn btn-primary " id="button-cuisine" href="cuisine.html" role="button">Cuisine</a>
+                                        </button>
+                                       
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 form-group">
+                                        <a class="btn btn-primary " id="button-reserve" href="index.html" role="button">Meunier</a>
+                                    </div>
+                                </div>
+            
+                                
+                            </form>
+                            
+                        </div>
+                    </div>
                 </div>
+                
             </div>
             <div class="col-3" id="right-col"></div>
         </div>
@@ -35,9 +87,9 @@
     <footer class="bg-dark py-5 mt-5">
         <div class="container text-light text-center">
             <div class="display-5 mb-3">Le Meunier</div>
-            <small class="text-white-50">&copy; Copyright bt me. All rights reserved</small>
+            <small class="text-white-50">&copy; Copyright by me. All rights reserved</small>
         </div>
-          
+
     </footer>
 </body>
 

@@ -65,3 +65,26 @@ div {
     border-radius: 0%;
     width: 5em;
 }
+#book-a-table {
+    background-color: #FAFAFA;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+
+    float: left;
+    width: 100%;
+}
+.book-a-table p {
+	color: #9a9a9a;
+}
+
+#formSubmit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.button-submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
