@@ -1,7 +1,6 @@
 body {
     padding: 0;
     margin: 0;
-
     background-color: black;
 }
 div{
@@ -42,10 +41,12 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 1em
 }
 
 #button-cuisine{
     border-radius: 0%;
+;
 }
 #button-reserve{
     border-radius: 0%;
