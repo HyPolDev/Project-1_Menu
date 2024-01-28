@@ -1,11 +1,15 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #212529 !important;
+    background-color: bisque !important;
     height: 100vh;
     min-height: 100vh;
     display: flex;
     flex-direction: column;;
+}
+
+#bigcontainer{
+    min-height: 100vh;
 }
 
 div {
@@ -23,7 +27,7 @@ div {
 #middle-col,
 #left-col,
 #right-col {
-    background-color: bisque;
+   
     height: 45em;
 }
 
@@ -142,6 +146,10 @@ div {
     padding-top: 0.2em;
     font-stretch: expanded;
 }
-#footer{background-color: #212529;
+#footer{
+background-color: #212529;
 padding: 3em;
+width: 100vw;
+margin-top:auto;
+bottom:0;
 }
