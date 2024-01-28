@@ -85,29 +85,50 @@ div {
     position: relative;
     background-color: transparent;
     display: table;
+    height: 3em;
+    width: 7em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .btn-hover::before, .btn-hover::after {
     content: "";
     position: absolute;
     width: 15px;
     height: 4px;
-    background-color: #fff;
+   
     transform: skewX(50deg);
     transition: 0.5s cubic-bezier(0.75, 0.82, 0.165, 1);
 }
 .btn-hover::before {
-    top: -4px;
+    top: -2px;
     left: 10%;
-    background-color: #212529;
+    background-color: bisque;
 }
 .btn-hover::after {
-    bottom: -4px;
+    bottom: -2px;
     right: 10%;
-    background-color: #212529;
+    background-color: bisque;
 }
 .btn-hover:hover::before {
     left: 75%;
+    height: 0px;
+    
 }
 .btn-hover:hover::after {
     right: 75%;
+    height: 0px;
+}
+
+.btn-hover:hover{
+    color: white;
+    background-color: #212529;
+    
+    transition: 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.linktext{
+    color: #212529;
+    text-decoration: none;
 }
