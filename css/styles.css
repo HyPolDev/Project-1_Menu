@@ -1,11 +1,19 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: bisque !important;
+    background-color: aliceblue !important;
     height: 100vh;
     min-height: 100vh;
     display: flex;
     flex-direction: column;;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    font-family: "Pinyon Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
 }
 
 #bigcontainer{
@@ -112,12 +120,12 @@ div {
 .btn-hover::before {
     top: -2px;
     left: 10%;
-    background-color: bisque;
+    background-color: aliceblue;
 }
 .btn-hover::after {
     bottom: -2px;
     right: 10%;
-    background-color: bisque;
+    background-color: aliceblue;
 }
 .btn-hover:hover::before {
     left: 75%;
