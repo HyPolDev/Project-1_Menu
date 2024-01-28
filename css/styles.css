@@ -2,6 +2,10 @@ body {
     padding: 0;
     margin: 0;
     background-color: black;
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;;
 }
 
 div {
@@ -23,21 +27,22 @@ div {
     height: 45em;
 }
 
-.col,
-.row {
-    border: 2px solid black;
 
-}
 
 #space-middle-col-top {
     height: 5em;
 }
 
 #name {
-    height: 8em;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Mrs Saint Delafield";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+    margin: 0;
+    padding: 0;
 }
 
 #description {
@@ -49,7 +54,6 @@ div {
 }
 
 .buttonsbox {
-    border: 1px solid blue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,9 +89,9 @@ div {
     position: relative;
     background-color: transparent;
     display: table;
-    height: 3em;
-    width: 7em;
-
+    height: 2em;
+    width: 4.6em;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,4 +135,11 @@ div {
 .linktext{
     color: #212529;
     text-decoration: none;
+    font-family: "Mrs Saint Delafield", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    padding-top: 0.2em;
+    font-stretch: expanded;
 }
+
