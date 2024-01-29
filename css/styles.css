@@ -17,6 +17,7 @@ body {
     font-weight: 400;
     font-style: normal;
     color: black;
+    z-index: auto;
 }
 
 #bigcontainer {
@@ -28,8 +29,8 @@ div {
 }
 
 ::-webkit-scrollbar {
-    background: #e8f2ff;
-    width: 0;
+    background: #9bc6ff;
+    width: 0.5em;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -174,4 +175,11 @@ div {
     width: 100vw;
     margin-top: auto;
     bottom: 0;
+}
+
+#menu{
+position: relative;
+height: 17em;
+z-index: auto;
+overflow-y: auto;
 }
