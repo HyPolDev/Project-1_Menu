@@ -5,10 +5,13 @@ body {
     height: 100vh;
     min-height: 100vh;
     display: flex;
-    flex-direction: column;;
+    flex-direction: column;
+    ;
 }
 
-*, ::after, ::before {
+*,
+::after,
+::before {
     box-sizing: border-box;
     font-family: "Pinyon Script", cursive;
     font-weight: 400;
@@ -16,7 +19,7 @@ body {
     color: black;
 }
 
-#bigcontainer{
+#bigcontainer {
     min-height: 100vh;
 }
 
@@ -28,14 +31,15 @@ div {
     background: #e8f2ff;
     width: 0;
 }
-::-webkit-scrollbar-thumb{
+
+::-webkit-scrollbar-thumb {
     background: #212529;
 }
 
 #middle-col,
 #left-col,
 #right-col {
-   
+
     height: 45em;
 }
 
@@ -76,25 +80,27 @@ div {
 
 
 #book-a-table {
- 
+
 
     float: left;
     width: 100%;
 }
+
 .book-a-table p {
-	color: #9a9a9a;
+    color: #9a9a9a;
 }
 
-.try-center{
+.try-center {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
-#form-spacer{
+#form-spacer {
     height: 2em;
 }
+
 .btn-hover {
     cursor: pointer;
     border: 2px solid #212529;
@@ -108,43 +114,49 @@ div {
     align-items: center;
     justify-content: center;
 }
-.btn-hover::before, .btn-hover::after {
+
+.btn-hover::before,
+.btn-hover::after {
     content: "";
     position: absolute;
     width: 15px;
     height: 4px;
-   
+
     transform: skewX(50deg);
     transition: 0.5s cubic-bezier(0.75, 0.82, 0.165, 1);
 }
+
 .btn-hover::before {
     top: -2px;
     left: 10%;
     background-color: aliceblue;
 }
+
 .btn-hover::after {
     bottom: -2px;
     right: 10%;
     background-color: aliceblue;
 }
+
 .btn-hover:hover::before {
     left: 75%;
     height: 0px;
-    
+
 }
+
 .btn-hover:hover::after {
     right: 75%;
     height: 0px;
 }
 
-.btn-hover:hover{
+.btn-hover:hover {
     color: white;
     background-color: #212529;
-    
+
     transition: 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.linktext{
+.linktext {
     color: #212529;
     text-decoration: none;
     font-family: "Mrs Saint Delafield", cursive;
@@ -154,10 +166,11 @@ div {
     padding-top: 0.2em;
     font-stretch: expanded;
 }
-#footer{
-background-color: #212529;
-padding: 3em;
-width: 100vw;
-margin-top:auto;
-bottom:0;
+
+#footer {
+    background-color: #212529;
+    padding: 3em;
+    width: 100vw;
+    margin-top: auto;
+    bottom: 0;
 }
