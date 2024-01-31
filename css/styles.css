@@ -67,6 +67,8 @@ div {
     height: 15em;
     text-decoration: underline;
     text-decoration-color: #9a9a9a;
+    overflow: auto;
+    overflow-x: hidden;
 
 }
 
