@@ -197,12 +197,3 @@ div {
     width: 12em;
     height: 12em;
 }
-
-.imgDiv {
-    position: relative;
-    flex-wrap: wrap;
-}
-
-#starters {
-    display: inline;
-}
