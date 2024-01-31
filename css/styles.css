@@ -13,7 +13,7 @@ body {
 ::after,
 ::before {
     box-sizing: border-box;
-    font-family: "Great Vibes", cursive;
+    font-family: "Playfair Display", serif;
     font-weight: 400;
     font-style: normal;
     color: black;
@@ -64,7 +64,10 @@ div {
 }
 
 #description {
-    height: 17em;
+    height: 15em;
+    text-decoration: underline;
+    text-decoration-color: #9a9a9a;
+
 }
 
 #buttonsrow {
@@ -185,15 +188,27 @@ div {
 
 }
 
-.card {
-    width: 12em;
-    height: 12em;
-    background-color: aliceblue !important;
-    border: none !important;
-    margin-bottom: 3em;
-}
+
 
 .img {
     width: 12em;
     height: 12em;
+    border: 2px solid #212529;
+
+}
+
+.hoverimg {
+    position: absolute;
+    transition: 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+    height: 12em;
+    width: 12em;
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.hoverimg:hover {
+
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.7);
+
 }
