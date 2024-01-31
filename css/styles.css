@@ -13,7 +13,7 @@ body {
 ::after,
 ::before {
     box-sizing: border-box;
-    font-family: "Great Vibes",cursive;
+    font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-style: normal;
     color: black;
@@ -177,9 +177,32 @@ div {
     bottom: 0;
 }
 
-#menu{
-position: relative;
-height: 17em;
-z-index: auto;
-overflow-y: auto;
+#menu {
+    position: relative;
+    height: 17em;
+    z-index: auto;
+    overflow-y: auto;
+
+}
+
+.card {
+    width: 12em;
+    height: 12em;
+    background-color: aliceblue !important;
+    border: none !important;
+    margin-bottom: 3em;
+}
+
+.img {
+    width: 12em;
+    height: 12em;
+}
+
+.imgDiv {
+    position: relative;
+    flex-wrap: wrap;
+}
+
+#starters {
+    display: inline;
 }
